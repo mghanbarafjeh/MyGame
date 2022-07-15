@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ThreeBiggestNumber {
@@ -13,9 +14,10 @@ public class ThreeBiggestNumber {
         number=0;
     }
 
-    public void findBiggestNumbers(Scanner input){
+    public void findBiggestNumbers(){
+
         while (number != -1){
-            number=input.nextInt();
+            number=ReadNumber.readNumber();
             if (number>max1){
                 max3=max2;
                 max2=max1;
@@ -33,6 +35,7 @@ public class ThreeBiggestNumber {
         System.out.println("Max3 is : " + max3);
 
     }
+
 
 
 }

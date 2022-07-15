@@ -10,10 +10,10 @@ public class ThreeSmallestNumbers {
         number=0;
     }
 
-    public void findSmallestNumbers(Scanner input){
+    public void findSmallestNumbers(){
         while (number != -1)
         {
-            number = input.nextInt();
+            number = ReadNumber.readNumber();
             if (number != -1)
             list.add(number);
         }

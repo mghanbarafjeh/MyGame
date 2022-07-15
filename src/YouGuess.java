@@ -65,5 +65,25 @@ public class YouGuess {
             }
         }
     }
+    private static int setDifficulty(){
+        int number = 0;
+        System.out.println("Input Character");
+        Scanner k = new Scanner(System.in);
+        while (number == 0){
+            System.out.println("Please chose a level.\nPress 'E' for easy\nPress 'M' for medium\nPress 'H' for Hard.\n");
+            char c = k.next().toLowerCase().charAt(0);
+            switch (c)
+            {
+                case 'e':
+                    number=10;break;
+                case 'm':
+                    number = 100;break;
+                case 'h':
+                    number = 1000;break;
+                default:
+                    System.out.println("You have chosen a wrong input\nPlease try again!");
+            }}
+        return number;
+    }
 
 }

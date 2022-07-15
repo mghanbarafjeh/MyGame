@@ -1,0 +1,17 @@
+This is a simple game made by @mghanbarafjeh.
+This game has a switch case consisted of 6 options.
+#####
+1. YouGuess: A random number is chosen by the PC and you need to guess what the number is based on the feedback from the PC
+             after each round of your guess.
+
+2. PCGuess: Is the opposite of the previous option. This time, a random number is selected by the user and kept secret then the PC
+            should guess what the number is based on PC's guess and user feedback.
+3. Find three biggest numbers: Takes numbers from user input and continues until the user inputs "-1" as the input. After that three
+                                the biggest numbers based on user input are printed.
+
+4. Find three smallest numbers: Opposite to the previous option, this module takes user inputs and returns the three smallest
+                                   numbers when "-1" is taken as the user input.
+
+5. Reverse Word: It takes a string from the user's input and prints it in reverse order.
+
+6.Exit
